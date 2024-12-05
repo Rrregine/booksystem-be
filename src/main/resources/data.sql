@@ -1,0 +1,20 @@
+insert into booktopics (booktopicid, booktopicname, imageurl) values ('1001', 'Adventure', 'https://th.bing.com/th/id/OIP.HpxBKZbdp-IT6NiT586rRAAAAA?pid=ImgDet&rs=1');
+insert into booktopics (booktopicid, booktopicname, imageurl) values ('1002', 'Detective', 'https://th.bing.com/th/id/OIP.Ha-B6F99BPRlv2qubXUQQwHaL8?pid=ImgDet&rs=1');
+insert into booktopics (booktopicid, booktopicname, imageurl) values ('1003', 'Romance', 'https://i.pinimg.com/736x/15/88/ce/1588ce8eb139ce8544b2bd204d05683f--paris-romance-anita.jpg');
+insert into booktopics (booktopicid, booktopicname, imageurl) values ('1004', 'Fantasy', 'https://th.bing.com/th/id/R.480781209dea1be14d916f41136c7a7f?rik=HBCMA1SEIpwxPw&pid=ImgRaw&r=0');
+insert into booktopics (booktopicid, booktopicname, imageurl) values ('1005', 'Mystery', 'https://www.tatteredcover.com/sites/tatteredcover.com/files/responsive/mystery.png');
+insert into booktopics (booktopicid, booktopicname, imageurl) values ('1006', 'Science Fiction', 'https://mymodernmet.com/wp/wp-content/uploads/2018/09/encyclopedia-sci-fi.jpg');
+insert into booktopics (booktopicid, booktopicname, imageurl) values ('1007', 'Biography', 'https://i.pinimg.com/originals/d7/8e/4a/d78e4a8fdde5645a7442aca5705be741.jpg');
+
+insert into books (bookid, title, publishedyear, coverurl, booktopicid) values ('101', 'The Lost City of the Monkey God', 2017, 'https://www.hachettebookgroup.com/wp-content/uploads/2018/02/97814555400201.jpg?fit=442%2C675','1001');
+insert into books (bookid, title, publishedyear, coverurl, booktopicid) values ('102', 'The River', 2019, 'https://berryvillebookbuzz.files.wordpress.com/2019/08/the-river.jpg','1001');
+insert into books (bookid, title, publishedyear, coverurl, booktopicid) values ('103', 'The Mountains Sing', 2020, 'https://th.bing.com/th/id/R.b75139e122f69350bfa13f90d12f9fe1?rik=GorioR04wbq4qQ&pid=ImgRaw&r=0','1001');
+insert into books (bookid, title, publishedyear, coverurl, booktopicid) values ('104', 'The Last Devil to Die', 2023, 'https://th.bing.com/th/id/OIP.dIKEvnDU8U6lVKdvGZ1YLwAAAA?rs=1&pid=ImgDetMain','1002');
+insert into books (bookid, title, publishedyear, coverurl, booktopicid) values ('105', 'You’d Look Better As a Ghost', 2023, 'https://th.bing.com/th/id/OIP.XwdQJZSXo6_Ub_A4yPjmpgAAAA?rs=1&pid=ImgDetMain', '1002');
+insert into books (bookid, title, publishedyear, coverurl, booktopicid) values ('106', 'Tell Me Your Secrets', 2023, 'https://www.welcometobookends.co.uk/wp-content/uploads/2019/06/9781472260376.jpg','1002');
+insert into books (bookid, title, publishedyear, coverurl, booktopicid) values ('107', 'Pride and Prejudice', 1813, 'https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781471134746/pride-and-prejudice-9781471134746_hr.jpg','1003');
+insert into books (bookid, title, publishedyear, coverurl, booktopicid) values ('108', 'Jane Eyre', 1847, 'https://th.bing.com/th/id/OIP.cRhpwvaIKExPUSaErWYzgQHaLn?rs=1&pid=ImgDetMain','1003');
+insert into books (bookid, title, publishedyear, coverurl, booktopicid) values ('109', 'Wuthering Heights', 1847, 'https://th.bing.com/th/id/OIP.oknwZcOISh0G2EPL3BKenQHaL3?rs=1&pid=ImgDetMain','1003');
+insert into books (bookid, title, publishedyear, coverurl, booktopicid) values ('110', 'The Lord of the Rings', 1954, 'https://th.bing.com/th/id/OIP.TpPI9Xo84FEIODUn2tjjdgHaLK?rs=1&pid=ImgDetMain','1004');
+insert into books (bookid, title, publishedyear, coverurl, booktopicid) values ('111', 'A Game of Thrones', 1996, 'https://th.bing.com/th/id/OIP.fBJpsVlB5cRa0PaYaLoOHAHaLW?rs=1&pid=ImgDetMain','1004');
+insert into books (bookid, title, publishedyear, coverurl, booktopicid) values ('112', 'Harry Potter and the Philosopher’s Stone', 1997, 'https://images.thenile.io/r1000/9780747554561.jpg','1004');
